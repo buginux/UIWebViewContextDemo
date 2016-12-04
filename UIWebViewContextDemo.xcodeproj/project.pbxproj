@@ -1,0 +1,356 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		116DAE861DDD56AC0064AB59 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 116DAE851DDD56AC0064AB59 /* main.m */; };
+		116DAE891DDD56AC0064AB59 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 116DAE881DDD56AC0064AB59 /* AppDelegate.m */; };
+		116DAE8F1DDD56AC0064AB59 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 116DAE8D1DDD56AC0064AB59 /* Main.storyboard */; };
+		116DAE911DDD56AC0064AB59 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 116DAE901DDD56AC0064AB59 /* Assets.xcassets */; };
+		116DAE941DDD56AC0064AB59 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 116DAE921DDD56AC0064AB59 /* LaunchScreen.storyboard */; };
+		116DAE9D1DDD56D00064AB59 /* XGContact.m in Sources */ = {isa = PBXBuildFile; fileRef = 116DAE9C1DDD56D00064AB59 /* XGContact.m */; };
+		116DAE9F1DDD943D0064AB59 /* add_a_contact.html in Resources */ = {isa = PBXBuildFile; fileRef = 116DAE9E1DDD943D0064AB59 /* add_a_contact.html */; };
+		116DAEA21DDD947E0064AB59 /* XGAddContactWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 116DAEA11DDD947E0064AB59 /* XGAddContactWebViewController.m */; };
+		116DAEA51DDD98420064AB59 /* XGContactListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 116DAEA41DDD98420064AB59 /* XGContactListViewController.m */; };
+		116DAEA81DDD9AF90064AB59 /* XGContactCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 116DAEA71DDD9AF90064AB59 /* XGContactCell.m */; };
+		116DAEAB1DDD9D440064AB59 /* XGContactStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 116DAEAA1DDD9D440064AB59 /* XGContactStore.m */; };
+		116DAEAE1DDDA6580064AB59 /* NSObject+JSContextTracker.m in Sources */ = {isa = PBXBuildFile; fileRef = 116DAEAD1DDDA6580064AB59 /* NSObject+JSContextTracker.m */; };
+		116DAEB01DDDA9010064AB59 /* add_a_contact.js in Resources */ = {isa = PBXBuildFile; fileRef = 116DAEAF1DDDA9010064AB59 /* add_a_contact.js */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		116DAE811DDD56AC0064AB59 /* UIWebViewContextDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UIWebViewContextDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		116DAE851DDD56AC0064AB59 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		116DAE871DDD56AC0064AB59 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		116DAE881DDD56AC0064AB59 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		116DAE8E1DDD56AC0064AB59 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		116DAE901DDD56AC0064AB59 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		116DAE931DDD56AC0064AB59 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		116DAE951DDD56AC0064AB59 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		116DAE9B1DDD56D00064AB59 /* XGContact.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XGContact.h; sourceTree = "<group>"; };
+		116DAE9C1DDD56D00064AB59 /* XGContact.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XGContact.m; sourceTree = "<group>"; };
+		116DAE9E1DDD943D0064AB59 /* add_a_contact.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = add_a_contact.html; sourceTree = "<group>"; };
+		116DAEA01DDD947E0064AB59 /* XGAddContactWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XGAddContactWebViewController.h; sourceTree = "<group>"; };
+		116DAEA11DDD947E0064AB59 /* XGAddContactWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XGAddContactWebViewController.m; sourceTree = "<group>"; };
+		116DAEA31DDD98420064AB59 /* XGContactListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XGContactListViewController.h; sourceTree = "<group>"; };
+		116DAEA41DDD98420064AB59 /* XGContactListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XGContactListViewController.m; sourceTree = "<group>"; };
+		116DAEA61DDD9AF90064AB59 /* XGContactCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XGContactCell.h; sourceTree = "<group>"; };
+		116DAEA71DDD9AF90064AB59 /* XGContactCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XGContactCell.m; sourceTree = "<group>"; };
+		116DAEA91DDD9D440064AB59 /* XGContactStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XGContactStore.h; sourceTree = "<group>"; };
+		116DAEAA1DDD9D440064AB59 /* XGContactStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XGContactStore.m; sourceTree = "<group>"; };
+		116DAEAC1DDDA6580064AB59 /* NSObject+JSContextTracker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+JSContextTracker.h"; sourceTree = "<group>"; };
+		116DAEAD1DDDA6580064AB59 /* NSObject+JSContextTracker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+JSContextTracker.m"; sourceTree = "<group>"; };
+		116DAEAF1DDDA9010064AB59 /* add_a_contact.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = add_a_contact.js; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		116DAE7E1DDD56AC0064AB59 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		116DAE781DDD56AC0064AB59 = {
+			isa = PBXGroup;
+			children = (
+				116DAE831DDD56AC0064AB59 /* UIWebViewContextDemo */,
+				116DAE821DDD56AC0064AB59 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		116DAE821DDD56AC0064AB59 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				116DAE811DDD56AC0064AB59 /* UIWebViewContextDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		116DAE831DDD56AC0064AB59 /* UIWebViewContextDemo */ = {
+			isa = PBXGroup;
+			children = (
+				116DAE9E1DDD943D0064AB59 /* add_a_contact.html */,
+				116DAEAF1DDDA9010064AB59 /* add_a_contact.js */,
+				116DAE871DDD56AC0064AB59 /* AppDelegate.h */,
+				116DAE881DDD56AC0064AB59 /* AppDelegate.m */,
+				116DAE8D1DDD56AC0064AB59 /* Main.storyboard */,
+				116DAE901DDD56AC0064AB59 /* Assets.xcassets */,
+				116DAE921DDD56AC0064AB59 /* LaunchScreen.storyboard */,
+				116DAE951DDD56AC0064AB59 /* Info.plist */,
+				116DAE841DDD56AC0064AB59 /* Supporting Files */,
+				116DAE9B1DDD56D00064AB59 /* XGContact.h */,
+				116DAE9C1DDD56D00064AB59 /* XGContact.m */,
+				116DAEA01DDD947E0064AB59 /* XGAddContactWebViewController.h */,
+				116DAEA11DDD947E0064AB59 /* XGAddContactWebViewController.m */,
+				116DAEA31DDD98420064AB59 /* XGContactListViewController.h */,
+				116DAEA41DDD98420064AB59 /* XGContactListViewController.m */,
+				116DAEA61DDD9AF90064AB59 /* XGContactCell.h */,
+				116DAEA71DDD9AF90064AB59 /* XGContactCell.m */,
+				116DAEA91DDD9D440064AB59 /* XGContactStore.h */,
+				116DAEAA1DDD9D440064AB59 /* XGContactStore.m */,
+				116DAEAC1DDDA6580064AB59 /* NSObject+JSContextTracker.h */,
+				116DAEAD1DDDA6580064AB59 /* NSObject+JSContextTracker.m */,
+			);
+			path = UIWebViewContextDemo;
+			sourceTree = "<group>";
+		};
+		116DAE841DDD56AC0064AB59 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				116DAE851DDD56AC0064AB59 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		116DAE801DDD56AC0064AB59 /* UIWebViewContextDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 116DAE981DDD56AC0064AB59 /* Build configuration list for PBXNativeTarget "UIWebViewContextDemo" */;
+			buildPhases = (
+				116DAE7D1DDD56AC0064AB59 /* Sources */,
+				116DAE7E1DDD56AC0064AB59 /* Frameworks */,
+				116DAE7F1DDD56AC0064AB59 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UIWebViewContextDemo;
+			productName = UIWebViewContextDemo;
+			productReference = 116DAE811DDD56AC0064AB59 /* UIWebViewContextDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		116DAE791DDD56AC0064AB59 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = swiftyper;
+				TargetAttributes = {
+					116DAE801DDD56AC0064AB59 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = HRB2W9JCT6;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 116DAE7C1DDD56AC0064AB59 /* Build configuration list for PBXProject "UIWebViewContextDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 116DAE781DDD56AC0064AB59;
+			productRefGroup = 116DAE821DDD56AC0064AB59 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				116DAE801DDD56AC0064AB59 /* UIWebViewContextDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		116DAE7F1DDD56AC0064AB59 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				116DAE941DDD56AC0064AB59 /* LaunchScreen.storyboard in Resources */,
+				116DAEB01DDDA9010064AB59 /* add_a_contact.js in Resources */,
+				116DAE9F1DDD943D0064AB59 /* add_a_contact.html in Resources */,
+				116DAE911DDD56AC0064AB59 /* Assets.xcassets in Resources */,
+				116DAE8F1DDD56AC0064AB59 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		116DAE7D1DDD56AC0064AB59 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				116DAEA21DDD947E0064AB59 /* XGAddContactWebViewController.m in Sources */,
+				116DAEA81DDD9AF90064AB59 /* XGContactCell.m in Sources */,
+				116DAEAB1DDD9D440064AB59 /* XGContactStore.m in Sources */,
+				116DAE9D1DDD56D00064AB59 /* XGContact.m in Sources */,
+				116DAE891DDD56AC0064AB59 /* AppDelegate.m in Sources */,
+				116DAEA51DDD98420064AB59 /* XGContactListViewController.m in Sources */,
+				116DAE861DDD56AC0064AB59 /* main.m in Sources */,
+				116DAEAE1DDDA6580064AB59 /* NSObject+JSContextTracker.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		116DAE8D1DDD56AC0064AB59 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				116DAE8E1DDD56AC0064AB59 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		116DAE921DDD56AC0064AB59 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				116DAE931DDD56AC0064AB59 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		116DAE961DDD56AC0064AB59 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		116DAE971DDD56AC0064AB59 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		116DAE991DDD56AC0064AB59 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = HRB2W9JCT6;
+				INFOPLIST_FILE = UIWebViewContextDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.swiftyper.UIWebViewContextDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		116DAE9A1DDD56AC0064AB59 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = HRB2W9JCT6;
+				INFOPLIST_FILE = UIWebViewContextDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.swiftyper.UIWebViewContextDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		116DAE7C1DDD56AC0064AB59 /* Build configuration list for PBXProject "UIWebViewContextDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				116DAE961DDD56AC0064AB59 /* Debug */,
+				116DAE971DDD56AC0064AB59 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		116DAE981DDD56AC0064AB59 /* Build configuration list for PBXNativeTarget "UIWebViewContextDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				116DAE991DDD56AC0064AB59 /* Debug */,
+				116DAE9A1DDD56AC0064AB59 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 116DAE791DDD56AC0064AB59 /* Project object */;
+}
